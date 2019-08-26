@@ -11,8 +11,15 @@
 <body>
     <?php
         $con=conectar();
-        $sql="SELECT * FROM usuario";
+        $sql="SELECT u.nombre, u.usuario, u.contrasena, u.id_usuario
+        FROM USER u";
         $result=mysqli_query($con,$sql);
+
+        while($file=mysqli_fetch_array($result)){
+            echo "su usuario es".$file['usuario']."su contraseña es".$file['contrasena']."<br>";
+            
+        }      
     ?>
+
 </body>
 </html>

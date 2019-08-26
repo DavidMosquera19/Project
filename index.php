@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/5faa3200c2.js"></script>
-    #estilo de los iconos
+    <!-- sitilo de iconos -->
         <style>
             body{
-                background: #000;
+                background: #fff;
             }
             nav{
                 width: 150px;
@@ -34,7 +34,7 @@
         </style>
 </head>
 <body>
-  #iconos 
+  
     <nav>
         <a href=""><i class="fas fa-home"></i></a>
         <a href="login.php"><i class="fas fa-user"></i></a>

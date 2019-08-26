@@ -25,7 +25,7 @@
 
          <div class="input-contenedor" >
                 <i class="fas fa-key icon"></i>
-            <input type="text" name="pass" placeholder="Contraseña">
+            <input type="password" name="pass" placeholder="Contraseña">
         </div>
             <input type="submit" value="Registrar" class="buttom">
             <p>Al registarte, aceptas nuestras condicionde de uso y política de privacidad</p>
