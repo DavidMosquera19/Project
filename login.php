@@ -27,3 +27,5 @@
             <p>¿No tienes cuenta? <a class="link" href="resgistro.php">Registrate</a></p>
         </div>
     </form>
+    </body>
+</html>
