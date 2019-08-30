@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contacto</title>
-    <link rel="stylesheet" href="css/estilo2.css">
+    <link rel="stylesheet" href="css/estilos2.css">
     <script src="https://kit.fontawesome.com/5faa3200c2.js"></script>
     <!-- sitilo de iconos -->
         <style>
