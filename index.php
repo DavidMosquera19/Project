@@ -29,7 +29,6 @@
                          </ul>
                          </li>
                      <li><a href="#"><span class="icon-play"></span>videos</a></li>
-                     <li><a href="#"><span class="icon-folder-download"></span>Descargas</a></li>
                      <li><a href="contacto.php"><span class="icon-profile"></span>Contacto</a></li>
                  </ul>
              </nav>
