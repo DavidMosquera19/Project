@@ -16,7 +16,7 @@
                 <li><a href="">Rutinas</a>
                     <ul class="submenu">
                         <li><a href="">Semanas</a>
-                            <ul class="submenu2">
+                            <ul class="submenu">
                                 <li><a href="">semana1</a></li>
                                 <li><a href="">semana2</a></li>
                                 <li><a href="">semana3</a></li>

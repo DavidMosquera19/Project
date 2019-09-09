@@ -12,7 +12,7 @@ body{
 
 .navegacion{
     width: 150px;
-    margin: 30px ;
+    margin: 30px;
     background: #fff;
 }
 .navegacion ul{
@@ -52,20 +52,7 @@ body{
     text-decoration: none; 
 }
 
-.submenu2{
-    position: absolute;
-    background: #3333;
-}
-
-.submenu2 li a{
-    display: block;
-    width: 120%;
-    padding: 15px;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none; 
-}
-
 .menu li:hover .submenu{
     visibility: visible;
 }
+
