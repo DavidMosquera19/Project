@@ -22,7 +22,7 @@
                      <li class="submenu">
                          <a href="#"><span class="icon-games"></span>Rutinas <span class="caret icon-arrow-down"></span></a>
                          <ul class="children">
-                             <li><a href="Unity5.html">Semana 1<span class="icon-dot"></span></a></li>
+                             <li><a href="#">Semana 1<span class="icon-dot"></span></a></li>
                              <li><a href="#">Semana 2 <span class="icon-dot"></span></a></li>
                              <li><a href="#">Semana 3 <span class="icon-dot"></span></a></li>
                              <li><a href="#">Semana 4 <span class="icon-dot"></span></a></li>
@@ -30,6 +30,7 @@
                          </li>
                      <li><a href="#"><span class="icon-play"></span>videos</a></li>
                      <li><a href="contacto.php"><span class="icon-profile"></span>Contacto</a></li>
+                     <li><a href="resgistro.php"><span class=""></span>Register</a></li>
                  </ul>
              </nav>
              </center>
