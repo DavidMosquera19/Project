@@ -45,8 +45,8 @@ nav a:hover{
 
       
   <div class="row">
-        <div class="col-4></div>
-        <div class=" col-4">
+        <div class="col-12 col-md-4 col-lg-4"></div>
+        <div class=" col-12 col-md-4 col-lg-4">
         <div class="card" style="width: 18rem;">
   <img src="css/imagen/descarga.jpg" class="card-img-top" alt="...">
   <div class="card-body">
@@ -65,7 +65,7 @@ nav a:hover{
   </div>
 </div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-12 col-md-4 col-ld-4"></div>
   </div>
 
     
