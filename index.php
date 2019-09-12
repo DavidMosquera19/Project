@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="fonts.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/5faa3200c2.js"></script>
     
 </head>
 <body>
@@ -30,7 +31,9 @@
                          </li>
                      <li><a href="#"><span class="icon-play"></span>videos</a></li>
                      <li><a href="contacto.php"><span class="icon-profile"></span>Contacto</a></li>
-                     <li><a href="resgistro.php"><span class=""></span>Register</a></li>
+                     <li><a href="resgistro.php"><span class="fas fa-user"></span>Register</a></li>
+                     <li><a href="store.php"><span class="fas fa-store"></span>Store</a></li>
+                     
                  </ul>
              </nav>
              </center>
