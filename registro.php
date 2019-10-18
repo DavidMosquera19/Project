@@ -1,3 +1,6 @@
+<?php
+include("conexion.php") ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,28 +12,35 @@
     <link rel="stylesheet" href="css/estilos1.css">
 </head>
 <body>
+
+
     <form action="reg.php" method="post" class="formulario">
         <h1>Registrate</h1>
         <div class="contenedor">
             <div class="input-contenedor"
             >
             <i class="fas fa-user icon"></i>
-            <input type="text" name="nom" placeholder="Nombre Completo">
+            <input type="text" value="" name="nombre" placeholder="Nombre Completo">
              </div>
 
              <div class="input-contenedor">
                     <i class="fas fa-envelope icon"></i>
-             <input type="text" name="email" placeholder="Correo Electronico">
+             <input type="text" value="" name="correo" placeholder="Correo Electronico">
          </div>
 
          <div class="input-contenedor" >
                 <i class="fas fa-key icon"></i>
-            <input type="password" name="pass" placeholder="Contraseña">
+            <input type="password" value="" name="contrasena" placeholder="Contraseña">
+        <div>
+        <input type="hidden" name="id" value="" id="">
+        </div>
+           
         </div>
             <input type="submit" value="Registrar" class="buttom">
             <p>Al registarte, aceptas nuestras condicionde de uso y política de privacidad</p>
             <p>¿Ya tienes una cuenta? <a class="link" href="login.php">Iniciar sesion</a></p>
         </div>
     </form>
+
 </body>
 </html>

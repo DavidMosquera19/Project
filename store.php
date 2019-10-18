@@ -1,3 +1,5 @@
+<?php
+include("conexion.php") ?>
 <!doctype html>
 <html lang="es">
   <head>
@@ -35,41 +37,72 @@ nav a:hover{
 </style>
 
   </head>
-  <body>
-
-  <nav>
-        <a href="index.php"><i class="fas fa-home"></i></a>
-       
-    </nav>
-          <center><h1>Shop Store</h1></center>
-
-      
+  <tbody>
   <div class="row">
-        <div class="col-12 col-md-4 col-lg-4"></div>
-        <div class=" col-12 col-md-4 col-lg-4">
-        <div class="card" style="width: 18rem;">
-  <img src="css/imagen/descarga.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <center><h5 class="card-title">Nitro Tech</h5></center>
-    <center><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, laborum quam, nostrum deleniti esse!</p></center>
-   <center><a href="#" class="btn btn-primary">20.0</a></center> 
-  </div>
-</div>
+	<?php 
+    $con=conectar();
+    $sql="SELECT *
+    FROM produc u";
+    $result=mysqli_query($con,$sql);
+    while($file=mysqli_fetch_array($result)){
+?>
+        <div class="col-4 col-md-4 col-lg-4">
+					<div class="card" style="width: 18rem;">
+						<img src="<?php echo $file['imagen'] ?>" class="card-img-top" alt="...">
+							<div class="card-body">
+								<center><h5 class="card-title">Nitro Tech</h5></center>
+								<center><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, laborum quam, nostrum deleniti esse!</p></center>
+							<center><div class="container">
+							<a href="" data-toggle="modal" data-target="#agregarModal" class="btn btn-success">solicitar</a>
+          <div class="modal fade" id="agregarModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+              <form action="compra.php" method="post">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">confirmar</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    
+                  <div class="form-group">
+                          <input type="text" name="nombre" id="" placeholder="nombre">
+                      </div>
+                      <div class="form-group">
+                          <input type="text" name="usuario" id="" placeholder="usuario ">
+                      </div>
+                      
+                      <div class="form-group">
+                          <input type="text" name="direccion" id="" placeholder="direccion">
+                      </div>
+                      <div class="form-group">
+                          <input type="text" name="contraseña" id="" placeholder="contraseña">
+                      </div>
+											<input type="hidden" name="id" value="<?php echo $file['id_produc'] ?>" id="">
+                    
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button class="btn btn-success" type="submit">aceptar</button>
+                </div>
+                </form>
 
-<div class="card" style="width: 18rem;">
-  <img src="css/imagen/descarga.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <center><h5 class="card-title">Nitro Tech</h5></center>
-    <center><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, laborum quam, nostrum deleniti esse!</p></center>
-   <center><a href="#" class="btn btn-primary">20.0</a></center> 
-  </div>
-</div>
-        </div>
-        <div class="col-12 col-md-4 col-ld-4"></div>
-  </div>
+							</div></center> 
+							</div>
+					</div>
 
+				</div>
+				<?php 
+    }
+?>
+
+ 
+   </div>
+      
     
-
 
 
 
@@ -78,6 +111,6 @@ nav a:hover{
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  
+    </tbody>
   </body>
 </html>

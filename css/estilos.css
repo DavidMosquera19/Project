@@ -5,8 +5,8 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-
-body {background:#FEFEFE;}
+body {background:#FEFEFE;
+}
 
 .menu_bar {
 	display:none;

@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Menu</title>
+    <title>Gym</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="fonts.css">
@@ -31,7 +31,7 @@
                          </li>
                      <li><a href="#"><span class="icon-play"></span>videos</a></li>
                      <li><a href="contacto.php"><span class="icon-profile"></span>Contacto</a></li>
-                     <li><a href="resgistro.php"><span class="fas fa-user"></span>Register</a></li>
+                     <li><a href="registro.php"><span class="fas fa-user"></span>Register</a></li>
                      <li><a href="store.php"><span class="fas fa-store"></span>Store</a></li>
                      
                  </ul>

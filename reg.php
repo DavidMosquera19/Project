@@ -1,13 +1,15 @@
 <?php
-
+include("conexion.php");
 if($_POST){
     $nombre = $_POST['nom'];
     $usuario = $_POST['email'];
-    $contrasena = $_POST['pass'];   
-
-    echo "su nombre es $nombre su usuario es $usuario su contraseña es $contrasena";
-}else {
-    echo "Error en el post";
-}
-
-?>
+    $contrasena = $_POST['pass'];  
+    
+    $con=conectar();
+    $sql="INSERT INTO registro(nombre,correo,contrasena)
+    VALUE ('$nombre', '$usuario', '$contrasena')";
+    $result=mysqli_query($con,$sql);
+    
+        header("Location:login.php");
+        }
+        ?>

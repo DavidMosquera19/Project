@@ -1,3 +1,5 @@
+<?php
+include("conexion.php") ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,7 +11,7 @@
     <link rel="stylesheet" href="css/estilos1.css">
 </head>
 <body>
-    <form class="formulario">
+    <form action="log.php" method="post" class="formulario">
         <h1>Login</h1>
         <div class="contenedor">
             
