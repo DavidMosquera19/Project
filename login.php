@@ -11,7 +11,7 @@ include("conexion.php") ?>
     <link rel="stylesheet" href="css/estilos1.css">
 </head>
 <body>
-    <form action="log.php" method="post" class="formulario">
+    <form action="" method="post" class="formulario">
         <h1>Login</h1>
         <div class="contenedor">
             
