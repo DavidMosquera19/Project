@@ -34,7 +34,7 @@ nav a:hover{
     background: #fff;
     color: #000;
 }
-</style>
+    </style>
 
   </head>
   <tbody>
@@ -48,7 +48,7 @@ nav a:hover{
 ?>
         <div class="col-4 col-md-4 col-lg-4">
 					<div class="card" style="width: 18rem;">
-						<img src="<?php echo $file['imagen'] ?>" class="card-img-top" alt="...">
+						<img src="<?php echo $file['img'] ?>" class="card-img-top" alt="...">
 							<div class="card-body">
 								<center><h5 class="card-title">Nitro Tech</h5></center>
 								<center><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, laborum quam, nostrum deleniti esse!</p></center>
@@ -80,13 +80,13 @@ nav a:hover{
                       <div class="form-group">
                           <input type="text" name="contraseña" id="" placeholder="contraseña">
                       </div>
-											<input type="hidden" name="id" value="<?php echo $file['id_produc'] ?>" id="">
+											<input type="hidden" name="id" value="<?php echo $file['id_producto'] ?>" id="">
                     
                   </div>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button class="btn btn-success" type="submit">aceptar</button>
+                  <button class="btn btn-success" type="submit">Aceptar</button>
                 </div>
                 </form>
 

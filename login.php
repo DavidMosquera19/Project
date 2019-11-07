@@ -26,7 +26,7 @@ include("conexion.php") ?>
         </div>
             <input type="submit" value="Login" class="buttom" name="l   o1">
             <p>Al registarte, aceptas nuestras condicionde de uso y política de privacidad</p>
-            <p>¿No tienes cuenta? <a class="link" href="resgistro.php">Registrate</a></p>
+            <p>¿No tienes cuenta? <a class="link" href="registro.php">Registrate</a></p>
         </div>
     </form>
     </body>
