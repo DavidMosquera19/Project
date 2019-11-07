@@ -11,7 +11,7 @@ include("conexion.php") ?>
     <link rel="stylesheet" href="css/estilos1.css">
 </head>
 <body>
-    <form action="" method="post" class="formulario">
+    <form action="index.php" method="post" class="formulario">
         <h1>Login</h1>
         <div class="contenedor">
             
@@ -24,7 +24,7 @@ include("conexion.php") ?>
                 <i class="fas fa-key icon"></i>
             <input type="password" placeholder="Contraseña">
         </div>
-            <input type="submit" value="Login" class="buttom" name="l   o1">
+            <input type="submit" value="Login" class="buttom" href="index.php">
             <p>Al registarte, aceptas nuestras condicionde de uso y política de privacidad</p>
             <p>¿No tienes cuenta? <a class="link" href="registro.php">Registrate</a></p>
         </div>
