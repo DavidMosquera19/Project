@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(imagen/imagen2.jpg);
+    background-image: url(imagen/nombre.jpg);
     margin: 0%;
     background-size: 100vw 100vh;
     background-attachment: fixed;
@@ -39,7 +39,7 @@ textarea{
 }
 
 #boton{
-    background: #31384A;
+    background: rgba(0, 0, 0, 0.5);;
     color: #fff;
     padding: 20px;
 }
